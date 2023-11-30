@@ -111,6 +111,12 @@ export default function App() {
     }
   };
 
+  useEffect(() => {
+    fetch("https://localhost:8000/")
+      .then((res) => res.json())
+      .then((data) => setMessage(data.message));
+  },[]);
+
   // Close sidenav when mouse leave mini sidenav
   const handleOnMouseLeave = () => {
     if (onMouseEnter) {
