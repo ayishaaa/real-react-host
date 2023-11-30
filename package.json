@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd bellezza 2 && npm install",
-    "start-server": "cd bellezza 2 && node app.js",
-    "install-client": "cd bellezza 1 && npm install",
-    "build-client": "cd bellezza 1 && npm run build",
-    "start-client": "cd bellezza 1 && npm run start"
+    "install-server": "cd bellezza2 && npm install",
+    "start-server": "cd bellezza2 && node app.js",
+    "install-client": "cd bellezza1 && npm install",
+    "build-client": "cd bellezza1 && npm run build",
+    "start-client": "cd bellezza1 && npm run start"
   },
   "keywords": [],
   "author": "",
