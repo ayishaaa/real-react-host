@@ -1,6 +1,6 @@
 var jwt = require('jsonwebtoken');
 const adminForm = require('../models/adminModel');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const asyncHandler = require('express-async-handler');
 
 exports.adminAdd = asyncHandler(async (req, res) => {

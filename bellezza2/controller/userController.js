@@ -1,7 +1,7 @@
 const userForm = require('../models/userModel');
 const asyncHandler = require('express-async-handler');
 var jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 var nodemailer = require('nodemailer');
 
 exports.userAdd = asyncHandler(async (req, res) => {

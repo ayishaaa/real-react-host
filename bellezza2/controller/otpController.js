@@ -2,7 +2,7 @@ const userForm = require('../models/userModel');
 const otpForm = require('../models/otpModel');
 const asyncHandler = require('express-async-handler');
 var jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 var nodemailer = require('nodemailer');
 var otpGenerator = require('otp-generator');
 
