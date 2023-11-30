@@ -28,7 +28,7 @@ var storage = multer.diskStorage({
 
 console.log('Backend connected');
 //adminController
-// router.post('/', adminController.adminOnly);
+router.post('/', adminController.adminOnly);
 router.post('/collect', adminController.adminLogin);
 router.get('/profile', verifyToken, adminController.getAdminProfile);
 router.post('/addadmin', verifyToken, adminController.adminAdd);
